@@ -1,0 +1,59 @@
+# Build outputs (MSBuild / .NET Framework)
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Aa]rtifacts/
+[Dd]ist/
+[Bb]uild/[Bb]in/
+[Bb]uild/[Oo]bj/
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.cache
+*.tmp
+*.temp
+*.log
+
+# Visual Studio / VS Code local state
+.vs/
+.vscode/settings.json
+.vscode/.browse.VC.db*
+.vscode/ipch/
+.vscode/*.log
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.pidb
+*.svd
+
+# NuGet and tooling caches
+packages/
+*.nupkg
+.nuget/
+TestResults/
+.coverage*
+coverage/
+
+# Operating system / editor leftovers
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+*.bak
+
+# Local manual test/deployment folders (source files stay tracked)
+LocalExports/
+TestOutput/
+DeployOutput/
+
+# Local full-data snapshots must not be committed.
+LocalSnapshots/
+DataSnapshots/
+# Do not blanket-ignore manifest.json: test fixtures and examples can be tracked.
